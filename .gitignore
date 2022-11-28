@@ -1,0 +1,28 @@
+# comentário
+.idea/
+.vscode/
+
+# configurações do ambiente remoto.
+src/main/resources/application.properties
+src/main/resources/application.yaml
+src/main/resources/application.yml
+
+# comentário
+bin/
+gen/
+target/
+out/
+
+# comentário
+.mvn/
+mvnw.cmd
+mvnw
+
+# comentário
+HELP.md
+
+# comentário.
+*.iws
+*.iml
+*.ipr
+
