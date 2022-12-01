@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<name>integrador</name>
+	<name>projeto-integrador-ii</name>
 	<groupId>br.iesb</groupId>
-	<artifactId>integrador</artifactId>
+	<artifactId>projeto-integrador-ii</artifactId>
 	<description>API desenvolvida durante o curso de Análise e Desenvolvimento de Sistemas do Instituto de Educação Superior do Distrito Federal.</description>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -56,6 +56,13 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.0.31</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -69,6 +76,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
 				<configuration>
 					<excludes>
 						<exclude>
